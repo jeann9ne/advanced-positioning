@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.8em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+table thead tr {
+    background-color: darkgreen;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 8px 12px;
+}
+
+table tbody td {
+    text-align: right;
+}
+
+table tbody tr {
+    text-align: right;
+    border-bottom: 1px solid lightgray;
+}
+
+table tbody tr:nth-of-type(odd) {
+    background-color: whitesmoke;
+}
+
+table thead tr th:nth-child(2) {
+    text-align: left;
+}
+
+table tbody tr td:nth-child(2) {
+    text-align: left;
+}
